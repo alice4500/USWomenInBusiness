@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%)
+
+}
+#realbuttons{
+  padding: 5px;
+  font-family: "sans serif";
+  font-size: 60px;
+  text-decoration: none;
+}
+#translucent{
+  opacity:.25;
+}
+body{
+  font-family: 'lobster';
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+.block{
+
+  background-color: #008CBA;
+  position: center;
+  height: 670px;
+  width: 1500px;
+  margin: auto;
+  opacity: 1;
+
+}
+.container{
+  position: relative;
+}
+.rightcontainer {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+.leftmap{
+  float: left;
+}
+
+#overlay {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay1 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map1{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay2 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map2{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay3 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map3{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay4 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map4{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay5 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map5{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay6 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map6{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay7 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map7{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay8 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map8{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay9 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map9{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#overlay10 {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  opacity:0;
+  transition: .5s ease;
+  background-color: purple;
+}
+#not-map10{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+.fa fa-map-marker{
+  text-decoration: none;
+}
+.text{
+  padding: 10px;
+  font-family: 'open sans';
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.footer{
+  background-color: #2541B2;
+  opacity: .80;
+  height: 200px;
+  z-index: 5;
+  /*position: fixed;
+  bottom:0;
+  width:100%;*/
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.footer a{
+  display: inline-block;
+
+}
+.resize{
+  position:absolute;
+  left:50%;
+}
